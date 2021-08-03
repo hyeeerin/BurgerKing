@@ -30,9 +30,11 @@
 	<div id = "menu_m">
 	<jsp:include page="cs_menu.jsp" />
 	</div>
-	<div class = "notice_search" align="center">	     
+	<div class = "notice_list" align="center">	     
 	   <table class = "table1">
 	   
+	   	
+	   	  
 	     <form method="post"
 	      action="<%=request.getContextPath() %>/notice_search.do">	      
 	     		<input type="hidden" name="page" value="${Paging.getPage() }">

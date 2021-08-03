@@ -162,7 +162,7 @@ public class QnaController {
 		if (check > 0) {
 			out.println("<script>");
 			out.println("alert('Q&A 등록 완료')");
-			out.println("location.href='qna_list.do'");
+			out.println("location.href='Qna.do'");
 			out.println("</script>");
 		} else {
 			out.println("<script>");

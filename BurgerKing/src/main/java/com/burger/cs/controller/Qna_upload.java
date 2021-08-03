@@ -51,7 +51,7 @@ public class Qna_upload {
 		boolean isUpload = false;
 		
 		String uploadPath = 
-				"C:\\NCS\\download\\workspace(spring)\\final_burgerking\\BurgerKing\\src\\main\\webapp\\resources\\img\\qna\\";				
+				"C:\\NCS\\download\\workspace(spring)\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp0\\wtpwebapps\\BurgerKing\\resources\\img\\qna\\";
 		Calendar cal = Calendar.getInstance();
 		int year = cal.get(Calendar.YEAR);
 		int month = cal.get(Calendar.MONTH) + 1;

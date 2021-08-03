@@ -52,14 +52,15 @@ public class Event_upload {
 		
 		
 		
-		  String uploadPath =
-		  "C:\\NCS\\download\\workspace(spring)\\final_burgerking\\BurgerKing\\src\\main\\webapp\\resources\\img\\event\\";
-		 		
-		
 		/*
 		 * String uploadPath =
-		 * "C:\\NCS\\download\\workspace(spring)\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp0\\wtpwebapps\\BurgerKing\\resources\\img\\event\\";
-		 */
+		 * "C:\\NCS\\download\\workspace(spring)\\final_burgerking\\BurgerKing\\src\\main\\webapp\\resources\\img\\event\\";
+		 */		 		
+		
+		
+		  String uploadPath =
+		  "C:\\NCS\\download\\workspace(spring)\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp0\\wtpwebapps\\BurgerKing\\resources\\img\\event\\";
+		 
 		 		
 		Calendar cal = Calendar.getInstance();
 		int year = cal.get(Calendar.YEAR);

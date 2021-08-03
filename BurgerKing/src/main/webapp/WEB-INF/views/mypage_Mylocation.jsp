@@ -145,7 +145,7 @@
 					</button>
 				</div>
 				<div class="page_count">
-					<span>2</span> / <span>10</span>
+					<!-- <span>2</span> / <span>10</span> -->
 				</div>
 			</div>
 			<div class="pop_btn c_btn item2">

@@ -155,7 +155,7 @@
 			</div>
 			
 			<!-- 쿠폰 발급가능할때만 보여줌 -->
-			<c:if test="${stampList.size() > 5}">
+			<c:if test="${stampList.size() >= 5}">
 				<div class="stamp_couponWrap">
 					<div class="stamp_titWrap">
 						<p class="tit">
@@ -180,7 +180,7 @@
 								<strong>1번</strong>
 								<span>&nbsp;&nbsp;쿠폰 받기를 선택해 쿠폰을 받으세요</span>
 							</div>
-							<c:if test="${stampList.size() > 5 && stampList.size() < 10}">
+							<c:if test="${stampList.size() >= 5 && stampList.size() < 10}">
 								<div class="mycoupon_img">
 									<span>
 										<img src="https://d1cua0vf0mkpiy.cloudfront.net/images/menu/normal/0e25fe9d-25c1-40a2-b273-3076b2bb4470.png" alt="쿠폰" class style>

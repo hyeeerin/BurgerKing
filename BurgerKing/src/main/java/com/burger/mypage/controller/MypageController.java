@@ -132,7 +132,7 @@ public class MypageController {
 	       HashMap<String, String> set = new HashMap<String, String>();
 	       set.put("to", guest_phone); // 수신번호
 	   
-	       set.put("from", "01033610849"); // 발신번호
+	       set.put("from", "01000000000"); // 발신번호
 	       set.put("text", random); // 문자내용
 	       set.put("type", "sms"); // 문자 타입
 	   
